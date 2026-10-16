@@ -1,0 +1,51 @@
+version: "v0.4"
+
+project:
+  name: "TernaryPoly"
+  authors: ["Axiom Math"]
+  responsible_maintainers: ["Vasily Ilin"]
+  license: "Apache-2.0"
+  description: "Formalization, developed with AxiomProver, of two theorems of Ilin and Ono: over a field of characteristic zero, every polynomial in x, y, z invariant under the cyclic shift and satisfying the three-term relation is a sum of polynomials in two of the variables (so its mixed third derivative vanishes), and is zero when homogeneous of odd degree; and a symmetric homogeneous polynomial satisfies the three-term relation exactly when it is the cyclic sum of a unique symmetric binary period polynomial, odd in each variable."
+
+sources:
+  - title: "Ternary polynomial relations and periods of cusp forms"
+    authors: ["Vasily Ilin", "Ken Ono"]
+    id: "https://github.com/AxiomMath/TernaryPoly/blob/main/paper/paper.pdf"
+    type: "manuscript"
+    location: "Theorems 1.1 and 1.2 and their essential argument"
+    relationship: "formalizes"
+
+classification:
+  arxiv: ["math.NT"]
+  msc2020: ["11F67", "11F11", "11F75", "13A50", "20E42"]
+
+status:
+  scope: "The main theorems and the essential argument leading to them."
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: ["propext", "Classical.choice", "Quot.sound"]
+  main_results:
+    - declaration: "TernaryPeriodPolynomials.bachmann_van_ittersum"
+      file: "TernaryPeriodPolynomials/MainTheorem.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "Comparator/comparator.json"
+      literature_dependencies: []
+    - declaration: "TernaryPeriodPolynomials.symmetric_solution_iff_eq_cyclicLift"
+      file: "TernaryPeriodPolynomials/SymmetricClassification.lean"
+      sorry_count: 0
+      axioms: ["propext", "Classical.choice", "Quot.sound"]
+      comparator_config: "Comparator/comparator.json"
+      literature_dependencies: []
+
+automation:
+  methods:
+    - method: "autonomous"
+      models: ["AxiomProver"]
+    - method: "manual"
+
+review:
+  status: "self-assessed"
+  notes: "AI and human audited."
+
+acknowledgements: "The conjecture is due to Henrik Bachmann and Jan-Willem van Ittersum."

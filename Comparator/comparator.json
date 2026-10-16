@@ -1,0 +1,14 @@
+{
+  "challenge_module": "Challenge",
+  "solution_module": "Solution",
+  "theorem_names": [
+    "TernaryPeriodPolynomials.bachmann_van_ittersum",
+    "TernaryPeriodPolynomials.symmetric_solution_iff_eq_cyclicLift"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "enable_nanoda": true
+}

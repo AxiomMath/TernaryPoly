@@ -1,0 +1,18 @@
+module
+
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCasesCore
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases0
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases1
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases2
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases3
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases4
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases5
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases6
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.BaseCases.WDBaseCases7
+
+@[expose] public section
+
+
+
+
+

@@ -1,0 +1,14 @@
+module
+
+public import TernaryPeriodPolynomials.ArithmeticGroup.Hecke.AssociateProjector
+public import TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryCuspidalRecognition
+public import TernaryPeriodPolynomials.ArithmeticCohomology.BoundaryProjection
+public import TernaryPeriodPolynomials.ArithmeticCohomology.CuspidalAssociateProjector
+public import TernaryPeriodPolynomials.ArithmeticCohomology.SpectralRecovery
+public import TernaryPeriodPolynomials.EisensteinSeries.BadPlaneDetection
+public import TernaryPeriodPolynomials.ArithmeticCohomology.EisensteinGraph.General
+public import TernaryPeriodPolynomials.ArithmeticCohomology.BadLine.CuspidalSpan
+public import TernaryPeriodPolynomials.ArithmeticCohomology.SphericalDetection.Standard.GoodCusps
+
+@[expose] public section
+

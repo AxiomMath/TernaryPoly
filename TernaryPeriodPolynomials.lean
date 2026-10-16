@@ -1,0 +1,48 @@
+module
+
+public import TernaryPeriodPolynomials.AlternatingSolution.CoefficientPolynomials
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.Obstruction
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.Sharp
+public import TernaryPeriodPolynomials.AlternatingSolution.ModFour.Theorem
+public import TernaryPeriodPolynomials.AlternatingSolution.OddDegreeVanishing
+public import TernaryPeriodPolynomials.AlternatingSolution.TriangularCalculation
+public import TernaryPeriodPolynomials.AlternatingSolution.TriangularTable
+public import TernaryPeriodPolynomials.ArithmeticCohomology.SupportTheorem
+public import TernaryPeriodPolynomials.ArithmeticGroup.UnramifiedFactor
+public import TernaryPeriodPolynomials.BoundaryComparison.AnalyticComparison
+public import TernaryPeriodPolynomials.BoundaryComparison.ConstantTermRestriction
+public import TernaryPeriodPolynomials.BoundaryComparison.ConstantTerms
+public import TernaryPeriodPolynomials.BoundaryComparison.CuspidalSpan.BadPlane
+public import TernaryPeriodPolynomials.BoundaryComparison.FacePairing.Perfect
+public import TernaryPeriodPolynomials.BoundaryComparison.FaceRestriction
+public import TernaryPeriodPolynomials.BoundaryComparison.FiniteEntries
+public import TernaryPeriodPolynomials.BoundaryComparison.GlobalEntry
+public import TernaryPeriodPolynomials.BoundaryComparison.GoodPlaneSpan.Span
+public import TernaryPeriodPolynomials.BoundaryComparison.LocalThreeEntry
+public import TernaryPeriodPolynomials.BoundaryComparison.PlaneLineComparison
+public import TernaryPeriodPolynomials.BoundaryComparison.RealEntry.Tangent
+public import TernaryPeriodPolynomials.BoundaryComparison.RealEntry.Value
+public import TernaryPeriodPolynomials.BoundaryComparison.StokesComparison
+public import TernaryPeriodPolynomials.MainTheorem
+public import TernaryPeriodPolynomials.ModularForm.DegreeTen
+public import TernaryPeriodPolynomials.ModularForm.PeriodIsomorphism
+public import TernaryPeriodPolynomials.PeriodPolynomial.SymmetricKernel
+public import TernaryPeriodPolynomials.Polynomial.CharTwo.Counterexample
+public import TernaryPeriodPolynomials.Polynomial.NormKernel.Projector
+public import TernaryPeriodPolynomials.Polynomial.NormKernelDegree
+public import TernaryPeriodPolynomials.Polynomial.PairwiseDecomposition
+public import TernaryPeriodPolynomials.Polynomial.PositiveCharacteristic
+public import TernaryPeriodPolynomials.Polynomial.TorsionFreeDescent
+public import TernaryPeriodPolynomials.Polynomial.UniversalDivisor
+public import TernaryPeriodPolynomials.SymmetricClassification
+public import TernaryPeriodPolynomials.SymmetricSolution.BoundaryObstruction
+public import TernaryPeriodPolynomials.SymmetricSolution.ObstructionVanishing
+
+@[expose] public section
+
+
+/-! # Ternary polynomial relations and periods of cusp forms
+
+The results of the paper by Ilin and Ono. The main theorems are
+`TernaryPeriodPolynomials.bachmann_van_ittersum` (Theorem 1.1) and
+`TernaryPeriodPolynomials.symmetric_solution_iff_eq_cyclicLift` (Theorem 1.2). -/
